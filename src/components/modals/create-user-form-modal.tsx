@@ -7,7 +7,6 @@ import { generateRandomImage } from '../../utils/functions'
 import { v4 as uuidv4 } from 'uuid'
 import { useAppDispatch, useAppSelector } from '../../redux/hooks'
 import { addNewUser } from '../../redux/users-slice'
-import { useEffect } from 'react'
 
 interface CreateUserFormProps {
   setOpen: React.Dispatch<React.SetStateAction<boolean>>
